@@ -1,0 +1,2 @@
+#Get the string of each line of in_file. Starting on position 16. For a lenght of 15. out_file will have the result.
+sed 's/^.\{16\}\(.\{15\}\).*/\1/' in_file > out_file
