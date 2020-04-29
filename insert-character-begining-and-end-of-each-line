@@ -1,0 +1,9 @@
+#add character ' at the begining and end of each line
+sed "s/.*/'&'/" file_in > file_out
+
+#add character # at the begining
+sed 's/^/#/' file_in > file_out
+
+#add character # at the end  
+sed 's/$/#/' file_in > file_out
+
