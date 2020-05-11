@@ -1,0 +1,1 @@
+cat ./YOURFILE | awk ' { if ( length > x ) { x = length; y = $0 } }END{ print y }'
