@@ -1,0 +1,2 @@
+#removing duplicates lines from a file
+awk '!seen[$0]++' filename
