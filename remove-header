@@ -1,0 +1,2 @@
+//remove first line of a txt file
+ sed '1d' file.txt
